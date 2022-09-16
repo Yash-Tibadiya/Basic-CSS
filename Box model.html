@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model in css</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        .container{
+            background-color: rgb(137, 239, 152);
+            border: 2px solid blue;
+
+            /* we can set margin/padding for top, bottom, left and right like this */
+            /* padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 40px; 
+            padding-right: 40px; */
+
+            /* margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 40px;
+            margin-right: 40px; */
+
+            /* padding: top right bottom left; */
+            /* margin: top right bottom left; */
+
+            /* padding: 25px 60px 10px 80px; */
+            /* margin: 25px 60px 10px 80px; */
+
+            /* padding: x(left/right) y(top/bottom); */
+            /* margin: x(left/right) y(top/bottom); */
+
+            padding: 35px 20px;
+            margin: 15px 20px;
+            border-radius: 20px;
+            width: 550px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my heading 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tempore alias rem fugit in vel libero est earum voluptatem eum? Pariatur eius minima praesentium doloribus voluptatum culpa expedita, perferendis, quos dolorem quibusdam, quasi ipsam! Dicta!</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tempore alias rem fugit in vel libero est earum voluptatem eum? Pariatur eius minima praesentium doloribus voluptatum culpa expedita, perferendis, quos dolorem quibusdam, quasi ipsam! Dicta!</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tempore alias rem fugit in vel libero est earum voluptatem eum? Pariatur eius minima praesentium doloribus voluptatum culpa expedita, perferendis, quos dolorem quibusdam, quasi ipsam! Dicta!</p>
+    </div>
+</body>
+</html>
